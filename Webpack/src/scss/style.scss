@@ -1,0 +1,17 @@
+$font-family: arial, helvetica, sans-serif;
+$color-link: rgb(227, 163, 2);
+
+html {
+    font-family: $font-family;
+    font-size: 1rem;
+}
+
+a{
+    color: darken($color-link, 25%);
+    text-decoration: none;
+    outline: none;
+    &:hover, &:focus {
+        color: $color-link;
+        text-decoration: underline;
+    }
+}
